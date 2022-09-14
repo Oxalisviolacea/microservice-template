@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "microservice-template"
+version = "0.1.0"
+description = "Microservice template for personal projects"
+license = "MIT"
+authors = ["hannadavis <hdavis@redzone.co>"]
+readme = "README.md"
+homepage = "https://github.com/oxalisviolacea/microservice_template"
+repository = "https://github.com/oxalisviolacea/microservice_template"
+keywords = ["hypermodern", "template"]
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+microservice-template = "microservice_template.console:main"
